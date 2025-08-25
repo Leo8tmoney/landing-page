@@ -1,0 +1,24 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+header{
+    border: 2px solid black;
+}
+nav{
+    width: 80%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.Sign{
+    padding: 5px;
+    width: 70px;
+    height: 40px;
+    background-color: #C11119;
+}
+.Sign a{
+    text-decoration: none;
+}
