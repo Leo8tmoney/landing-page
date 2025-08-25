@@ -14,11 +14,15 @@ nav{
     align-items: center;
 }
 .Sign{
-    padding: 5px;
+    border: none;
     width: 70px;
-    height: 40px;
+    height: 30px;
     background-color: #C11119;
 }
 .Sign a{
     text-decoration: none;
+    color: white;
+    font-size: 12px;
+    text-align: center;
+    padding: 10px;
 }
