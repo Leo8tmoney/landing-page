@@ -199,11 +199,42 @@ input[type=email] {
 }
 .first-caro{
   display: flex;
-  justify-content: space-around;
+  justify-content: center;
+  margin: auto;
+  width: 70%;
     align-items: center;
-    gap: 2em; 
+    gap: 1em; 
     margin-bottom: 20px; 
 }
-@media (max-width:) {
+@media (max-width:1132px) {
+    .carousel-item img{
+        width: 150px;
+    }
     
+}
+@media (max-width:932px) {
+    .carousel-item{
+        width: 100%;
+    }
+        .carousel-item img{
+            width: 100px;
+        }
+}
+@media (max-width:600px) {
+        .carousel-item img{
+            width: 70px;
+        }
+}
+@media (max-width:420px) {
+        .carousel-item img{
+            width: 50px;
+        }
+        .mini-carosel{
+            display: flex;
+            gap: 0.6em;
+        }
+        .first-caro{
+            display: flex;
+            gap: 0.6em;
+        }
 }
