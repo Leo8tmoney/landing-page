@@ -165,8 +165,39 @@ input[type=email] {
 .first-sect{
     background-color: #000000;
     border: 2px solid black ;
+    width: 100%;
+
 
 }
 .first-sect h1{
+    color: white;
+    font-size: 2em;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    display: flex;
+    align-items: center;
+    
+
+}
+.carosel{
+    width: 80%;
+    margin: auto;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.mini-carosel{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap: 2em;
+}
+.first-caro{
+  display: flex;
+  justify-content: space-around;
+    align-items: center;
+    gap: 2em;  
+}
+@media (max-width) {
     
 }
