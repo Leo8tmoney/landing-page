@@ -175,29 +175,35 @@ input[type=email] {
     margin-top: 20px;
     margin-bottom: 20px;
     display: flex;
+    justify-content: center;
     align-items: center;
     
 
 }
 .carosel{
-    width: 80%;
+    width: 70%;
     margin: auto;
     display: flex;
-    flex-direction: row;
+    justify-content: center;
     align-items: center;
+    /* border: 2px solid red; */
 }
 .mini-carosel{
     display: flex;
-    justify-content: space-around;
+    justify-content: center;
+    margin: auto;
+    width: 70%;
     align-items: center;
-    gap: 2em;
+    gap: 1em;
+    /* border: 2px solid green; */
 }
 .first-caro{
   display: flex;
   justify-content: space-around;
     align-items: center;
-    gap: 2em;  
+    gap: 2em; 
+    margin-bottom: 20px; 
 }
-@media (max-width) {
+@media (max-width:) {
     
 }
