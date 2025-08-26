@@ -118,7 +118,6 @@ input[type=email] {
     display: flex;
     justify-content: center;
     align-items: center;
-    flex-direction: row;
     margin: auto;
     gap: 0.6em;
 }
@@ -133,43 +132,47 @@ input[type=email] {
     .movies {
         font-size: 2em;
     }
-    
+
 }
 
 @media (max-width:500px) {
     .logo {
         width: 100px;
     }
-    .begin p{
+
+    .begin p {
         flex-wrap: wrap;
     }
-    input[type=email]{
-      width: 150px;
-      height: 40px;  
+
+    input[type=email] {
+        width: 150px;
+        height: 40px;
     }
-    
-    .other-one{
+
+    .other-one {
         width: 100px;
         height: 40px;
     }
-    .other-one a{
+
+    .other-one a {
         font-size: 10px;
     }
 
 }
+
 @media (max-width:320px) {
-    .movies{
+    .movies {
         font-size: 50px;
     }
 }
-.first-sect{
+
+.first {
     background-color: #000000;
-    border: 2px solid black ;
-    width: 100%;
-
-
+    border: 2px solid black;
+    height: 100%;
 }
-.first-sect h1{
+
+.first h1 {
     color: white;
     font-size: 2em;
     margin-top: 20px;
@@ -177,64 +180,112 @@ input[type=email] {
     display: flex;
     justify-content: center;
     align-items: center;
-    
+
 
 }
-.carosel{
-    width: 70%;
-    margin: auto;
+
+.carosel {
     display: flex;
     justify-content: center;
     align-items: center;
     /* border: 2px solid red; */
 }
-.mini-carosel{
+
+.mini-carosel {
     display: flex;
     justify-content: center;
-    margin: auto;
-    width: 70%;
     align-items: center;
     gap: 1em;
     /* border: 2px solid green; */
 }
-.first-caro{
-  display: flex;
-  justify-content: center;
-  margin: auto;
-  width: 70%;
-    align-items: center;
-    gap: 1em; 
-    margin-bottom: 20px; 
+.mini-carosel img{
+    margin-bottom: 50px;
 }
+
+.first-caro {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1em;
+    margin-bottom: 20px;
+}
+.fa-chevron-right{
+    color: #ffffff;
+}
+
 @media (max-width:1132px) {
-    .carousel-item img{
+    .carousel-item img {
         width: 150px;
     }
-    
+
 }
+
 @media (max-width:932px) {
-    .carousel-item{
+    .carousel-item {
         width: 100%;
     }
-        .carousel-item img{
-            width: 100px;
-        }
+
+    .carousel-item img {
+        width: 100px;
+    }
 }
+
 @media (max-width:600px) {
-        .carousel-item img{
-            width: 70px;
-        }
+    .carousel-item img {
+        width: 70px;
+    }
 }
+
 @media (max-width:420px) {
-        .carousel-item img{
-            width: 50px;
-        }
-        .mini-carosel{
-            display: flex;
-            gap: 0.6em;
-        }
-        .first-caro{
-            display: flex;
-            gap: 0.6em;
-        }
+    .carousel-item img {
+        width: 50px;
+    }
+
+    .mini-carosel {
+        display: flex;
+        gap: 0.6em;
+    }
+
+    .first-caro {
+        display: flex;
+        gap: 0.6em;
+    }
+}
+
+.card-sect{
+
+    background-color: #000000;
+}
+.cards{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 1em;
+    border: 2px solid black;
+    margin: auto;
+}
+.card-sect h1 {
+    display: flex;
+    padding: 30px;
+    justify-content: center;
+    color: #ffffff;
+}
+.card{
+    width: 300px;
+    height: 300px;
+    background-color: #1D172D;
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+.card h2{
+    margin-bottom: 20px;
+    margin-top: 20px;
+    color: #ffffff;
+    padding: 20px;
+}
+.card p{
+    font-size: 20px;
+    color: #ffffff;
+    padding: 20px;
+    text-align: center;
 }
