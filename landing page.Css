@@ -272,13 +272,13 @@ input[type=email] {
 }
 .card{
     width: 300px;
-    height: 300px;
+    height: 500px;
     background-color: #1D172D;
     border-radius: 10px;
     margin-bottom: 20px;
 }
 .card h2{
-    margin-bottom: 20px;
+    margin-bottom: 10px;
     margin-top: 20px;
     color: #ffffff;
     padding: 20px;
@@ -289,3 +289,199 @@ input[type=email] {
     padding: 20px;
     text-align: center;
 }
+@media (max-width:827px) {
+    .card{
+        width: 200px;
+        height: 300px;
+    }
+    .card h2{
+        font-size: 1em;
+    }
+    .card p{
+        font-size: 10px;
+    }
+    
+}
+    @media (max-width: 556px) {
+    .cards {
+        display: flex;
+        flex-direction: column;
+        align-items: center;    
+        gap: 1em;               
+    }
+
+    .card {
+        width: 90%;            
+        max-width: 400px;      
+        height: auto;           
+    }
+
+    .card h2 {
+        font-size: 1.2em;
+        padding: 10px;
+        text-align: center;
+    }
+
+    .card p {
+        font-size: 0.9em;
+        padding: 10px;
+    }
+
+}
+.useless-faq{
+    background-color: #000000;
+    border: 2px solid black;
+}
+.useless-faq h1{
+    color: white;
+    text-align: center;
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+.accordion-wrapper{
+    max-width: 80%;
+    margin: auto;
+}
+.accordion-wrapper .accordion{
+    background-color: #111;
+    border-radius: 8px;
+}
+.accordion-button{
+    background-color: #111;
+    color: #ffffff;
+}
+.accordion-button:not(.collapse){
+    background-color: #2D2D2D;
+    color: #ffffff;
+}
+.accordion-body{
+    background-color: #222;
+    color: #ffffff;
+    font-size: 20px;
+}
+.footer-get-started {
+  background-color: #000;
+  color: #fff;
+  text-align: center;
+  padding: 3rem 2rem;
+}
+
+.footer-get-started h2 {
+  font-size: 1.8rem;
+  margin-bottom: 2rem;
+}
+
+
+.footer-input {
+  display: flex;
+  justify-content: center;
+  gap: 2px; 
+}
+
+.footer-input input {
+  padding: 1rem;
+  font-size: 1rem;
+  border-radius: 5px 0 0 5px; 
+  border: none;
+  width: 350px;
+  max-width: 80%;
+}
+
+.footer-input button {
+  padding: 1rem 2rem;
+  font-size: 1rem;
+  background-color: #e50914;
+  color: #fff;
+  border: none;
+  border-radius: 0 5px 5px 0; 
+  cursor: pointer;
+}
+
+
+.footer-input button:hover {
+  background-color: #f40612;
+}
+
+@media (max-width: 768px) {
+  .footer-get-started h2 {
+    font-size: 1.2rem;
+  }
+
+  .footer-input {
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;               
+  }
+
+  .footer-input input,
+  .footer-input button {
+    width: 90%;
+    border-radius: 5px; 
+  }
+}
+.netflix-footer {
+  background-color: #000;
+  color: #757575;
+  padding: 3rem 2rem;
+  font-size: 0.9rem;
+  text-align: center;
+  font-family: Arial, sans-serif;
+}
+
+.footer-content p {
+  margin-bottom: 2rem;
+}
+
+.footer-links {
+  display: flex;
+  justify-content: center;
+  gap: 4rem; 
+  flex-wrap: wrap;
+  margin-bottom: 2rem;
+}
+
+.footer-column {
+  display: flex;
+  flex-direction: column;
+  gap: 0.8rem;
+}
+
+.footer-links a {
+  color: #757575;
+  text-decoration: none;
+  transition: color 0.3s;
+}
+
+.footer-links a:hover {
+  color: #fff;
+}
+
+.language-selector {
+  margin: 2rem 0;
+}
+
+.language-selector select {
+  background-color: #000;
+  color: #fff;
+  padding: 0.5rem 1rem;
+  border: 1px solid #757575;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+
+@media (max-width: 768px) {
+  .footer-links {
+    flex-direction: column;  
+    gap: 1.5rem;
+  }
+
+  .footer-column {
+    align-items: center;
+  }
+
+  .language-selector select {
+    width: 80%;
+  }
+}
+
